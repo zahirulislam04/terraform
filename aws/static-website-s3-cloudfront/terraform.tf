@@ -7,11 +7,7 @@ terraform {
   }
 
   # configure s3 as remote state storage
-  backend "s3" {
-    bucket = "tfstate-04042022"
-    key    = "terraform.tfstate"
-    region = "us-east-1"
-  }
+  backend "s3" {}
 }
 
 # Configure the AWS Provider
