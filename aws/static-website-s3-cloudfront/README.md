@@ -1,6 +1,6 @@
 # Static website deployment in AWS S3
 
-A sample deployment of static website deployment using terraform in AWS S3 and serving the site using cloudfront.
+A sample deployment of static html website deployment using terraform in AWS S3 and serving the site using cloudfront.
 
 ## Pre-requisite
 
