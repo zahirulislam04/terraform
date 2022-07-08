@@ -27,3 +27,8 @@ module "deploy_cloudfront" {
   locations                      = ["US", "DE"]
   cloudfront_default_certificate = true
 }
+
+
+output "cloudfront_domain" {
+  value = module.deploy_cloudfront.cloudfront_domain_name
+}
